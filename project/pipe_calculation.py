@@ -8,7 +8,7 @@ def calculate_pipe_specs(L: float, H: float, q: float) -> float:
     """
     return math.pow(((q**2 * 25 * L * 10**5)/H), 0.2)
 
-def calculate_head_loss(f: float, L: float, v: float, d: float):
+def calculate_head_loss(f: float, L: float, v: float, d: float) -> float:
     g = 9.81
     """
     D'arcy-weber head loss formula
