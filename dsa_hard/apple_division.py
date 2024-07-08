@@ -3,6 +3,7 @@ import sys
 import pdb
 
 def apple_division(n, array):
+    array = sorted(array)
     if n == 1:
         return array[0]
     
